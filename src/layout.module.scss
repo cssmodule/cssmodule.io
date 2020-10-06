@@ -1,0 +1,17 @@
+.container {
+  background-color: #ccc;
+  padding-left: 15px;
+  padding-right: 15px;
+  &::after {
+    content: "";  
+    display: block;
+    clear: both;
+  }
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
